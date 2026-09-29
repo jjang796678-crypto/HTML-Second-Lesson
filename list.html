@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>목록 태그 </title>
+</head>
+<body>
+    <!-- .html 문서를 생성 한 이후에는 "!" 를 사용할 것  -->
+    <ul>
+        <li>사과</li>
+    <li>포도</li>
+    <li>딸기</li>
+</ul>
+<!-- ul = 순서가 상관 없는 리스트를 만들 때 사용 (unoredered list), li = 단순 리스트 (list item) -->
+ <ul>
+    <li>메뉴1</li>
+    <li>메뉴2</li>
+    <li>메뉴3</li>
+    <li>메뉴4</li>
+    <li>메뉴5</li>
+    <li>메뉴6</li>
+</ul>
+<!-- 코드를 드래그 한 채로 alt + shift + 화살표 방향 아래키 = 드래그 한 코드를 아래로 복사  -->
+ <ul>
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+    <li>D</li>
+    <li>E</li>
+    <li>F</li>
+ </ul>
+ <!-- "A>B" 는 A태그 코드 안에 B태그 코드 생성을 의미한다 ex) ul>li*6  -->
+  <!-- "A*n" 은 A태그 코드를 n개 생성 하겠다는 뜻 -->
+   <!--  -->
+  <ul>
+    <li>메뉴1</li>
+    <ul>
+        <li>서브메뉴 1</li>
+        <li>서브메뉴 2</li>
+        <li>서브메뉴 3</li>
+    </ul>
+    <li>메뉴2 <ul>
+        <li>submenu2 1</li>
+        <li>submenu2 2</li>
+        <li>submenu2 3</li>
+        <li>submenu2 4</li>
+    </ul>
+    </li>
+    <li>메뉴3 <ul>
+        <li>submenu3 1</li>
+        <li>submenu3 2</li>
+        <li>submenu3 3</li>
+        <li>submenu3 4</li>
+        <li>submenu3 5</li>
+    </ul></li>
+    <li>메뉴4</li>
+    <li>메뉴5</li>
+    <li>메뉴6</li>
+  </ul>
+<!-- "{A}*n" 은 A를 순차적으로 n개 생성 하라는 뜻이다  ex) ul>li{메뉴 $}*6 -->
+ <!-- 순서가 있는 리스트 만들 떄  -->
+  <ol> <li></li>
+  <li></li>
+  <li></li>
+  <li></li></ol>
+  <ol>
+    <li>메뉴 1</li>
+    <li>메뉴 2</li>
+    <li>메뉴 3</li>
+  </ol>
+
+  <!--  -->
+
+<h1>계란 볶은 밥</h1> 
+<ol type ="A" start = '3'>
+    <li>재료 준비
+        <ul>
+            <li>밥</li>
+            <li>계란</li>
+            <li>파</li>
+            <li>간장</li>
+        </ul>
+    </li>
+    <li>파를 기름에 볶는다</li>
+    <li>밥 넣고 볶기</li>
+    <li>계란을 넣고 스크램블</li>
+    <li>간장을 넣고 마저 볶아 완성</li>
+</ol>
+
+<ol type="I" start="2"> </ol>
+</body>
+</html>
